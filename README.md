@@ -12,3 +12,5 @@ This repository is a mix of 2 different projects: editing images in the space an
 - Pattern detection
 
 2. In the "Image segmentation" folder, there's two different MATLAB scripts that segmentates different coin images by using mathematical morphology
+- In the "segmentation.m" script different segmentation techniques are studied, and finally it is chosen one implementation.
+- 
