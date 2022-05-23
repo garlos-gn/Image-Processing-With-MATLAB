@@ -11,6 +11,6 @@ This repository is a mix of 2 different projects: editing images in the space an
 - Characterization and noise removal
 - Pattern detection
 
-2. In the "Image segmentation" folder, there's two different MATLAB scripts that segmentates different coin images by using mathematical morphology
-- In the "segmentation.m" script different segmentation techniques are studied, and finally it is chosen one implementation.
-- 
+2. In the "Image segmentation" folder, there's two different MATLAB scripts:
+- In the "segmentation.m" script different segmentation techniques are studied, and finally it is chosen one single implementation. The idea behind the project is to use mathematycal morphollogy (open(s) and close(s)) and binarizing images by using an umbral. At the end of the script there is just one code that classifies the amount of coins and computes the amount of cash in the image.
+- The idea behind "segmentation_W.m" is to apply this script to a different scenario, in which the background is white instead of black. Since open and close are dual operations, they can be substituted and (at least theoretically) we should get the same result.
